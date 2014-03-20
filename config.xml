@@ -8,7 +8,7 @@
         Smartpublishing
     </author>
     
-	<preference name="phonegap-version"           value="3.4.0" />          <!-- all: current version of PhoneGap -->
+	<preference name="phonegap-version"           value="3.1.0" />          <!-- all: current version of PhoneGap -->
     
 	
     <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
