@@ -8,7 +8,7 @@
         Smartpublishing
     </author>
     
-	<icon src="icon.png" />
+	<icon src="icon2.png" />
 	
 	<preference name="phonegap-version"           value="3.1.0" />          <!-- all: current version of PhoneGap -->
     
