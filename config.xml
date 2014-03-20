@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.rgnet" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>RioGrandedoNorte.Net</name>
+    <description>
+        RGNET
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Smartpublishing
+    </author>
+    
+	<preference name="phonegap-version"           value="3.4.0" />          <!-- all: current version of PhoneGap -->
+    
+	
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+    
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
