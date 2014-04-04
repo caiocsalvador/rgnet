@@ -6,7 +6,19 @@
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" charset="utf-8">
-			iabRef = window.open('http://riograndedonorte.net', '_blank', 'location=no');
+			
+			// Wait for Cordova to load
+			//
+			document.addEventListener("deviceready", onDeviceReady, false);
+
+			// Cordova is ready
+			//
+			function onDeviceReady() {
+				alert("aki");
+				
+				// relative document
+				ref = window.open(encodeURI('http://riograndedonorte.net'), '_self', 'location=no');
+			}
 	    </script> 
     </head>
     <body>    	
