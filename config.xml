@@ -32,7 +32,7 @@
     <gap:splash src="splash/ios/Default-Landscape_at_2x.png" gap:platform="ios" width="2048" height="1496" />
     <gap:splash src="splash/ios/Default-Portrait_at_2x.png"  gap:platform="ios" width="1536" height="2008" />
 	
-	<preference name="phonegap-version"           value="3.1.0" />          <!-- all: current version of PhoneGap -->
+	<preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
     
 	
     <plugin name="InAppBrowser" value="CDVInAppBrowser" />
